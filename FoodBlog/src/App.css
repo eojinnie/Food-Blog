@@ -1,0 +1,47 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.APP{
+  padding-top: 20px;
+  background-color: white;
+  max-width: 1030px;
+  min-height: 100vh;
+  margin: 30px auto;
+  border-radius: 20px;
+  
+}
+
+h2{
+  text-align: center;
+}
+
+
+.recipes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+};
+
+.card{
+  width: 200px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+};
+
+.card-image{
+  width: 100%;
+};
+
+.card-body{
+  padding: 10px;
+  text-align: center;
+}
+
+.category{
+  color: #ffba5a;
+}

@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #333;
+  padding: 10px 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+  
+.navbar h1 {
+  color: #fff;
+  margin: 0;
+}
+
+.navbar h1 a {
+  color: #fff; /* Set text color to white */
+  text-decoration: none; /* Remove underline */
+  background-color: transparent; /* Ensure background is transparent */
+}
+  
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+  
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+  
+.nav-links li a:hover {
+  color: #f8a82a;
+}
+  

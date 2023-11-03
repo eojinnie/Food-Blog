@@ -1,0 +1,43 @@
+.about-box {
+    padding: 30px;
+    border-radius: 15px;       /* rounded corners */
+    max-width: 70%;            /* set max-width to control the width */
+    margin: 50px auto;         /* centers the box horizontally and gives 50px top and bottom margin */
+}
+  
+.abouts-text {
+    margin-top: 20px;
+    
+}
+  
+.about-box h2 {
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+  
+p {
+    margin-bottom: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.contact-section {
+    margin-top: 300px;
+    padding: 30px 0; 
+    
+}
+  
+.contact-section h2 {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+  
+.contact-section ul {
+    list-style-type: none;
+    padding-left: 20;
+}
+  
+.contact-section li {
+    margin-bottom: 10px;
+}
+  

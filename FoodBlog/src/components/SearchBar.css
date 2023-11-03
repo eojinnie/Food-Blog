@@ -1,0 +1,28 @@
+form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+  
+input {
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 16px;
+}
+  
+input:focus {
+    outline: none;
+}
+  
+.form-control {
+    border-radius: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+  
+.btn {
+    border-radius: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
