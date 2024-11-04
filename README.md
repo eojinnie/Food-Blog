@@ -63,12 +63,12 @@ npm run dev
 
 This command will start the Vite development server. Open http://localhost:3000 in your browser to see the app in action.
 
-# 📂 Available Commands
+## Available Commands
 - npm run dev - Starts the development server
 - npm run build - Builds the app for production
 - npm run preview - Previews the production build locally
 
-## Project Structure
+# 📂 Project Structure
 
 - **public**: Static assets
 
