@@ -70,21 +70,4 @@ This command will start the Vite development server. Open http://localhost:3000 
 
 ## Project Structure
 
-├── public                    # Static assets
-│
-├── src                       # Main source code directory
-│   ├── components            # Reusable components (e.g., Navbar, RecipeCard, SearchBar)
-│   ├── pages                 # Page components (e.g., Home, About, RecipeDetails)
-│   ├── services              # API calls and data handling
-│   ├── styles                # CSS/SCSS files for styling
-│   ├── App.jsx               # Main application component
-│   └── main.jsx              # Application entry point
-│
-├── .env                      # Environment variables (API key, if needed)
-├── .eslintrc.cjs             # ESLint configuration file
-├── .gitignore                # Specifies files ignored by Git
-├── index.html                # Root HTML file for the application
-├── package-lock.json         # Lock file for npm dependencies
-├── package.json              # Project metadata and npm scripts
-├── README.md                 # Documentation for the project
-└── vite.config.js            # Configuration file for Vite
+FoodBlog ├── public # Static assets │ ├── src # Main source code directory │ ├── components # Reusable components (e.g., Navbar, RecipeCard, SearchBar) │ ├── pages # Page components (e.g., Home, About, RecipeDetails) │ ├── services # API calls and data handling │ ├── styles # CSS/SCSS files for styling │ ├── App.jsx # Main application component │ └── main.jsx # Application entry point │ ├── .env # Environment variables (API key, if needed) ├── .eslintrc.cjs # ESLint configuration file ├── .gitignore # Specifies files ignored by Git ├── index.html # Root HTML file for the application ├── package-lock.json # Lock file for npm dependencies ├── package.json # Project metadata and npm scripts ├── README.md # Documentation for the project └── vite.config.js # Configuration file for Vite
