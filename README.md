@@ -30,6 +30,37 @@ Food Blog provides two main pages:
 Follow these steps to set up the project locally:
 
 **Prerequisites**
-Node.js and npm installed on your system
-API key for the food database (if the project requires one)
-Installation
+- Node.js and npm installed on your system
+- API key for the food database (if the project requires one)
+  
+**Installation**
+
+1. Clone the Repository:
+
+bash
+git clone https://github.com/yourusername/food-blog.git
+cd food-blog
+
+
+2. Install Dependencies:
+bash
+npm install
+
+3. Set Up Environment Variables (if applicable):
+- Create a .env file in the root directory.
+- Add your API key:
+
+VITE_API_KEY=your_api_key_here
+
+4. Run the Development Server:
+
+bash
+npm run dev
+
+
+This command will start the Vite development server. Open http://localhost:3000 in your browser to see the app in action.
+
+**Available Commands**
+- npm run dev - Starts the development server
+- npm run build - Builds the app for production
+- npm run preview - Previews the production build locally
