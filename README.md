@@ -29,38 +29,62 @@ Food Blog provides two main pages:
 # 🚀 Getting Started
 Follow these steps to set up the project locally:
 
-**Prerequisites**
+## Prerequisites
 - Node.js and npm installed on your system
 - API key for the food database (if the project requires one)
   
-**Installation**
+## Installation
 
 1. Clone the Repository:
 
-bash
+``bash
 git clone https://github.com/yourusername/food-blog.git
 cd food-blog
-
+``
 
 2. Install Dependencies:
-bash
+`bash
 npm install
+`
 
 3. Set Up Environment Variables (if applicable):
 - Create a .env file in the root directory.
 - Add your API key:
-
+  
+`bash
 VITE_API_KEY=your_api_key_here
+`
 
 4. Run the Development Server:
 
-bash
+`bash
 npm run dev
-
+`
 
 This command will start the Vite development server. Open http://localhost:3000 in your browser to see the app in action.
 
-**Available Commands**
+## Available Commands
 - npm run dev - Starts the development server
 - npm run build - Builds the app for production
 - npm run preview - Previews the production build locally
+
+## Project Structure
+
+├── public                    # Static assets
+│
+├── src                       # Main source code directory
+│   ├── components            # Reusable components (e.g., Navbar, RecipeCard, SearchBar)
+│   ├── pages                 # Page components (e.g., Home, About, RecipeDetails)
+│   ├── services              # API calls and data handling
+│   ├── styles                # CSS/SCSS files for styling
+│   ├── App.jsx               # Main application component
+│   └── main.jsx              # Application entry point
+│
+├── .env                      # Environment variables (API key, if needed)
+├── .eslintrc.cjs             # ESLint configuration file
+├── .gitignore                # Specifies files ignored by Git
+├── index.html                # Root HTML file for the application
+├── package-lock.json         # Lock file for npm dependencies
+├── package.json              # Project metadata and npm scripts
+├── README.md                 # Documentation for the project
+└── vite.config.js            # Configuration file for Vite
